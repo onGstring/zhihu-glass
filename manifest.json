@@ -3,7 +3,7 @@
   "name": "Stupid Proof",
   "version": "0.0",
 
-  "description": "一个防蠢知乎内容过滤chrome插件",
+  "description": "『防蠢』知乎内容过滤插件",
 
   "background" : {
     "scripts" : ["background.js"]
