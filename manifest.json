@@ -9,6 +9,13 @@
     "scripts" : ["background.js"]
   },
 
+  "content_scripts": [
+    {
+      "matches": ["https://*.zhihu.com/*"],
+      "js": ["filter.js"]
+    }
+  ],
+
   "page_action": {
     "default_icon": "icon.png",
     "default_title": "Stupid Proof"
