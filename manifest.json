@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Stupid Proof",
+  "version": "0.0",
+
+  "description": "一个防蠢知乎内容过滤chrome插件",
+
+  "background" : {
+    "scripts" : ["background.js"]
+  },
+
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_title": "Stupid Proof"
+  },
+  "permissions": [
+    "declarativeContent"
+  ]
+}
