@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Stupid Proof",
-  "version": "0.0",
+  "version": "0.1",
   "description": "『防蠢』知乎内容过滤插件",
   "background" : {
     "scripts" : ["background.js"]
