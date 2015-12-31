@@ -6,6 +6,9 @@ var stupid_answer_number = 0;
 // filters
 
 function modify_answer_num() {
+  if (stupid_answer_number === 0)
+    return;
+
   var answer_node = document.getElementById("zh-question-answer-num");
   var answer_num = answer_node.getAttribute("data-num");
   answer_node.innerHTML = (answer_num - stupid_answer_number) + " 个回答（" + stupid_answer_number + " 个蠢人被屏蔽）";
