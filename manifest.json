@@ -4,12 +4,12 @@
   "version": "0.1",
   "description": "『防蠢』知乎内容过滤插件",
   "background" : {
-    "scripts" : ["background.js"]
+    "scripts" : ["lib/background/background.js"]
   },
   "content_scripts": [
     {
       "matches": ["https://*.zhihu.com/*"],
-      "js": ["mutation-summary.js", "filter.js"]
+      "js": ["lib/content-scripts/mutation-summary.js", "lib/content-scripts/filter.js"]
     }
   ],
   "page_action": {
