@@ -9,7 +9,11 @@
   "content_scripts": [
     {
       "matches": ["https://*.zhihu.com/*"],
-      "js": ["lib/content-scripts/mutation-summary.js", "lib/content-scripts/filter.js"]
+      "js": [
+        "lib/content-scripts/storage-init.js",
+        "lib/content-scripts/mutation-summary.js",
+        "lib/content-scripts/filter.js"
+      ]
     }
   ],
   "page_action": {
@@ -17,6 +21,7 @@
     "default_title": "Stupid Proof"
   },
   "permissions": [
-    "declarativeContent"
+    "declarativeContent",
+    "storage"
   ]
 }
