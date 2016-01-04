@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Stupid Proof",
+  "name": "Pride & Prejudice",
   "version": "0.1",
-  "description": "『防蠢』知乎内容过滤插件",
+  "description": "『傲慢与偏见』知乎内容过滤插件",
   "background" : {
     "scripts" : ["lib/background/background.js"]
   },
@@ -17,7 +17,7 @@
   ],
   "page_action": {
     "default_icon": "icon.png",
-    "default_title": "Stupid Proof",
+    "default_title": "Pride&Prejudice",
     "default_popup": "lib/popup.html"
   },
   "permissions": [
