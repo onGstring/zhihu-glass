@@ -5,13 +5,36 @@
   </head>
 <style>
   body {
-    min-width:100px;
+    width:150px;
+    font-size: 20px;
   }
+
+  div {
+    border-bottom: 1px solid #FAFAFA;
+    padding-bottom: 2px;
+  }
+
+  ul {
+    padding-left:0;
+    max-height: 200px;
+  }
+
+  #stupids {
+    overflow:hidden;
+    overflow-y:scroll;
+  }
+
+
+
 </style>
   <body>
-    <div class="options">
-      <input id="anonymity-filter" type="checkbox" name="anonymity-filter" value="filter" />
-      过滤匿名用户 <br />
+    <div>
+       <input id="anonymity-filter" type="checkbox" name="anonymity-filter" value="filter" />过滤匿名用户
+    </div>
+    <div>
+      <p id="stupid-list-info">蠢货名单</p>
+      <ul id="stupids">
+      </ul>
     </div>
   <script type="text/javascript" src="popup.js"></script>
   </body>

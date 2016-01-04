@@ -10,7 +10,6 @@
     {
       "matches": ["https://*.zhihu.com/*"],
       "js": [
-        "lib/content-scripts/storage-init.js",
         "lib/content-scripts/mutation-summary.js",
         "lib/content-scripts/filter.js"
       ]
