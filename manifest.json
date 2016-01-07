@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Pride & Prejudice",
-  "version": "0.1",
+  "version": "0.2",
   "description": "『傲慢与偏见』知乎内容过滤插件",
   "background" : {
     "scripts" : ["lib/background/background.js"]
@@ -22,6 +22,7 @@
   },
   "permissions": [
     "declarativeContent",
-    "storage"
+    "storage",
+    "contextMenus"
   ]
 }
