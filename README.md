@@ -1,14 +1,14 @@
-# 『傲慢与偏见』知乎内容过滤chrome插件
+# 『知乎眼镜』—— 戴着眼镜看知乎
 
-## 这个什么？
+## 这个是什么？
 
 浏览知乎的时候，你是否有过愚昧无知的回答和评论占据版面的经历，是否有过恶意满满的匿名回答和评论的遭遇。生命不应该浪费在浏览这些糟粕上，哪怕只是滚滑鼠的那几秒。
 
-『傲慢与偏见』chrome插件将为你清洁这个世界。正如其名，就是要**骄傲地、带偏见地**去看待这个世界。
+『知乎眼镜』chrome插件将为你清洁这个世界。正如其名，就是要**带着有色眼镜**去看待这个世界。
 
 ## 如何安装
 
-- 能翻墙: [chrome web store](https://chrome.google.com/webstore/category/extensions)搜索pride & prejudice即可找到，别忘了5星好评哦~
+- 能翻墙: [chrome web store](https://chrome.google.com/webstore/category/extensions)搜索知乎即可找到，别忘了5星好评哦~
 
 - 不能翻墙：github上点击Download Zip下载并解压；在浏览器中打开chrome://extensions/，开启『开发者模式』，点击『加载已解压扩展程序』，选择解压后的目录即可。
 
@@ -22,4 +22,4 @@
 
 ## 意见或建议
 
-欢迎将使用反馈发送到我的邮箱ydheATpku.edu.cn，或直接到[项目的github主页](https://github.com/onGstring/pride-prejudice)中交流。
+欢迎将使用反馈发送到我的邮箱ydheATpku.edu.cn，或直接到[项目的github主页](https://github.com/onGstring/zhihu-glass)中交流。

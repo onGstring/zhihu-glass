@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Pride & Prejudice",
+  "name": "知乎眼镜",
   "version": "0.2",
-  "description": "『傲慢与偏见』知乎内容过滤插件",
+  "description": "带着眼镜看知乎——知乎内容过滤",
   "background" : {
     "scripts" : ["lib/background/background.js"]
   },
@@ -17,7 +17,7 @@
   ],
   "page_action": {
     "default_icon": "icon.png",
-    "default_title": "Pride&Prejudice",
+    "default_title": "知乎眼镜",
     "default_popup": "lib/popup.html"
   },
   "permissions": [
