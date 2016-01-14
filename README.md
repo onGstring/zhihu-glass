@@ -8,7 +8,7 @@
 
 ## 如何安装
 
-- 能翻墙: [chrome web store](https://chrome.google.com/webstore/category/extensions)搜索知乎即可找到，别忘了5星好评哦~
+- 能翻墙: [chrome web store](https://chrome.google.com/webstore/category/extensions)搜索『知乎眼镜』或『知乎』即可找到，别忘了5星好评哦~
 
 - 不能翻墙：github上点击Download Zip下载并解压；在浏览器中打开chrome://extensions/，开启『开发者模式』，点击『加载已解压扩展程序』，选择解压后的目录即可。
 
